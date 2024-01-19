@@ -1,0 +1,89 @@
+
+// console.log('hello world!'); 
+// console.log();
+
+// //เรื่อง variable (reserved keyword const,var,let) (variable name) (type of value)
+// let name = 'ming' ;
+// //declared variable
+// let banana;
+// banana = "banana";
+// console.log(banana);
+
+// //มันจะพังเพราะไม่มีการacces
+// sayHI(john)
+
+//forEach 
+
+// let number = [1,2,3,4,5];
+
+// number.forEach(double);
+// number.forEach(display);
+
+// function double(element, index ,array ){
+//     array[index] = element * 5 ;
+
+// }
+
+// //เก็บในarray[index]
+
+// function display(element){
+//     console.log(element);
+// }
+
+// const arr =[1,2,3]
+
+// const multiple = arr.map(value => {
+//     return value*2
+// })
+
+// console.log(multiple);
+
+// const evenNum = arr.map(value =>{ return value % 2 === 0})
+
+// console.log(evenNum);
+
+// const total = arr.reduce((acc,curr) => {return acc + curr},0)
+// console.log(total);
+
+// var data = 0;
+
+// function setDataAsync(n) {
+//   setTimeout(function() {
+//     data = n;
+//   }, 1000);
+// }
+
+// function setDataSync(n) {
+//   data = n;
+// }
+
+// function printData(){
+//   console.log(`data = ${data}`);
+// }
+
+// console.log(`#1 Test Asynchronous`);
+// printData();
+// setDataAsync(1);
+// printData();
+
+// console.log(`#2 Test Synchronous`);
+// printData();
+// setDataSync(2);
+// printData();
+
+//mind grenade functionอยู่ในmind-grenade
+// require('./1-mind-grenade')
+
+//module OS
+
+// const os = require('os')
+
+// const user = os.type()
+
+// console.log(user);
+
+//module path
+const path = require('path')
+//all path
+const abs = path.resolve(__dirname)
+console.log(abs);
